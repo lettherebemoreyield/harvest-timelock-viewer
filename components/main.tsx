@@ -25,12 +25,12 @@ const devAddress = "0x9d074E37d408542FD38be78848e8814AFB38db17";
 const timelockAddresses = [
   "0xc2d82a3e2bae0a50f4aeb438285804354b467bc0",
   "0x0040E05CE9A5fc9C0aBF89889f7b60c2fC278416",
-  "0xD92c7fAa0Ca0e6AE4918f3a83d9832d9CAEAA0d3",
+  "0xf00dD244228F51547f0563e60bCa65a30FBF5f7f",
 ].map((x) => x.toLowerCase());
 const timelockNames = {
   "0xc2d82a3e2bae0a50f4aeb438285804354b467bc0": "48 hour Timelock",
   "0x0040e05ce9a5fc9c0abf89889f7b60c2fc278416": "24 hour Timelock",
-  "0xd92c7faa0ca0e6ae4918f3a83d9832d9caeaa0d3": "12 hour Timelock",
+  "0xf00dD244228F51547f0563e60bCa65a30FBF5f7f": "12 hour Timelock",
 };
 const targetNames = {
   "0xbd17b1ce622d73bd438b9e658aca5996dc394b0d": "Masterchef",
