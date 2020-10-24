@@ -2,14 +2,14 @@
   {
     "inputs": [
       {
-        "internalType": "contract PickleToken",
-        "name": "_pickle",
+        "internalType": "contract FARMRewardToken",
+        "name": "_FARM",
         "type": "address"
       },
       { "internalType": "address", "name": "_devaddr", "type": "address" },
       {
         "internalType": "uint256",
-        "name": "_picklePerBlock",
+        "name": "_FARMPerBlock",
         "type": "uint256"
       },
       { "internalType": "uint256", "name": "_startBlock", "type": "uint256" },
@@ -231,23 +231,23 @@
       { "internalType": "uint256", "name": "_pid", "type": "uint256" },
       { "internalType": "address", "name": "_user", "type": "address" }
     ],
-    "name": "pendingPickle",
+    "name": "pendingFARM",
     "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [],
-    "name": "pickle",
+    "name": "FARM",
     "outputs": [
-      { "internalType": "contract PickleToken", "name": "", "type": "address" }
+      { "internalType": "contract FARMRewardToken", "name": "", "type": "address" }
     ],
     "stateMutability": "view",
     "type": "function"
   },
   {
     "inputs": [],
-    "name": "picklePerBlock",
+    "name": "FARMPerBlock",
     "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
     "stateMutability": "view",
     "type": "function"
@@ -269,7 +269,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "accPicklePerShare",
+        "name": "accFARMPerShare",
         "type": "uint256"
       }
     ],
@@ -327,11 +327,11 @@
     "inputs": [
       {
         "internalType": "uint256",
-        "name": "_picklePerBlock",
+        "name": "_FARMPerBlock",
         "type": "uint256"
       }
     ],
-    "name": "setPicklePerBlock",
+    "name": "setFARMPerBlock",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
