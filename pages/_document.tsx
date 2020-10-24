@@ -41,7 +41,7 @@ class MyDocument extends Document {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'UA-71060764-23');
+            gtag('config', 'UA-ZZZZZZZZ3');
           `,
             }}
           />
