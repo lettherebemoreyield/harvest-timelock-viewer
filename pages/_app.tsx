@@ -29,7 +29,7 @@ function App({ Component, pageProps }: AppProps) {
           <title>Pickle | txs.wtf</title>
           <meta
             name="description"
-            content="Monitor transactions occuring on the PICKLE Finance timelock address."
+            content="Monitor transactions occuring on the PHarvest.Finance timelock address."
           />
           <link rel="shortcut icon" href="/favicon.ico" />
           <meta
