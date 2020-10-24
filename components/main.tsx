@@ -264,23 +264,9 @@ const Main = () => {
         whiteSpace: "nowrap",
       }}
     >
-      <Text h2>Pickle Finance Timelock Transactions</Text>
+      <Text h2>Harvest.Finance Timelock Transactions</Text>
       <Text type="secondary">
-        Only last 10,000 transactions displayed. The transactions are executed
-        from a{" "}
-        <Link
-          color
-          href="https://etherscan.io/address/0x9d074E37d408542FD38be78848e8814AFB38db17"
-        >
-          multisig wallet
-        </Link>
-        , which is why it isn't showing up on the{" "}
-        <Link
-          color
-          href="https://etherscan.io/address/0xc2d82a3e2bae0a50f4aeb438285804354b467bc0"
-        >
-          timelock contract
-        </Link>
+        Only last 10,000 transactions displayed. Please consider donating: 0x14d35893C6d187Ef7f302f4A447f6Cc7BF56B48F
         .
       </Text>
       <Spacer y={0.33} />
