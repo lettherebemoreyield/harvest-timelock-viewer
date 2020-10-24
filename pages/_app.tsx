@@ -26,7 +26,7 @@ function App({ Component, pageProps }: AppProps) {
     <ZeitProvider theme={customTheme}>
       <CssBaseline>
         <Head>
-          <title>Pickle | txs.wtf</title>
+          <title>Harvest Timelock</title>
           <meta
             name="description"
             content="Monitor transactions occuring on the Harvest.Finance timelock address."
